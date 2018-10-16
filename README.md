@@ -1,6 +1,8 @@
 # Realm Draw
 > A Collaborative Drawing App, where multiple users can draw to a shared canvas at the same time.
 
+### Note: This is a modification of Realm's original application. This is meant for archiving purposes only.
+
 ![Screenshot](screenshot.jpg)
 
 [![CI Status](http://img.shields.io/travis/realm-demos/realm-draw.svg?style=flat)](http://api.travis-ci.org/realm-demos/realm-draw.svg)

@@ -26,12 +26,15 @@
 @interface DrawView ()
 
 @property DrawPath *drawPath;
+@property NSMutableArray<DrawPath *> *lastDrawPaths;
 @property NSString *pathID;
 @property RLMResults *paths;
 @property RLMNotificationToken *notificationToken;
 @property CanvasView *canvasView;
 @property SwatchesView *swatchesView;
 @property NSString *currentColorName;
+
+@property UIButton *undo;
 
 @end
 
@@ -69,6 +72,16 @@
         
         self.currentColorName = @"Black";
         [self becomeFirstResponder];
+
+        self.undo = [[UIButton alloc] init];
+        self.undo.translatesAutoresizingMaskIntoConstraints = false;
+        [self.undo setTitleColor:UIColor.lightGrayColor forState:UIControlStateNormal];
+        [self.undo setTitle:@"Undo" forState:UIControlStateNormal];
+        [self.undo addTarget:self action:@selector(undoTapped:) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:self.undo];
+
+        [[NSLayoutConstraint constraintWithItem:self.undo attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeRight multiplier:1.0f constant:-15.0f] setActive:true];
+        [[NSLayoutConstraint constraintWithItem:self.undo attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTop multiplier:1.0f constant:15.0f] setActive:true];
     }
     return self;
 }
@@ -88,7 +101,7 @@
     
     frame = self.swatchesView.frame;
     frame.size.width = CGRectGetWidth(self.frame);
-    frame.origin.y = CGRectGetHeight(self.frame) - CGRectGetHeight(frame);
+    frame.origin.y = CGRectGetHeight(self.frame) - CGRectGetHeight(frame) + 40;
     self.swatchesView.frame = frame;
     [self.swatchesView setNeedsLayout];
 }
@@ -97,6 +110,7 @@
 {
     // Create a draw path object
     self.drawPath = [[DrawPath alloc] init];
+    self.drawPath.lineWidth = ([self.currentColorName isEqualToString:@"whiteColor"]) ? 20.0f : 4.0f;
     self.drawPath.color = self.currentColorName;
     
     // Create a draw point object
@@ -122,7 +136,8 @@
     [[RLMRealm defaultRealm] transactionWithBlock:^{
         if (self.drawPath.isInvalidated) {
             self.drawPath = [[DrawPath alloc] init];
-            self.drawPath.color = self.currentColorName ?: @"Black";
+            self.drawPath.lineWidth = ([self.currentColorName isEqualToString:@"whiteColor"]) ? 20.0f : 4.0f;
+            self.drawPath.color = self.currentColorName ?: @"blackColor";
             [[RLMRealm defaultRealm] addObject:self.drawPath];
         }
 
@@ -144,6 +159,16 @@
     CGPoint point = [[touches anyObject] locationInView:self.canvasView];
     [self addPoint:point];
     [[RLMRealm defaultRealm] transactionWithBlock:^{ self.drawPath.completed = YES; }];
+
+    if (!self.lastDrawPaths) {
+        self.lastDrawPaths = [[NSMutableArray<DrawPath *> alloc] init];
+    }
+    [self.lastDrawPaths insertObject:self.drawPath atIndex:0];
+
+    if (self.lastDrawPaths.count > 0) {
+        [self.undo setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+    }
+
     self.drawPath = nil;
 }
 
@@ -180,6 +205,20 @@
     [alertController addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil]];
     
     [[[[UIApplication sharedApplication] keyWindow] rootViewController] presentViewController:alertController animated:YES completion:nil];
+}\
+
+- (void)undoTapped:(id)sender
+{
+    if (self.lastDrawPaths.count > 0) {
+        [[RLMRealm defaultRealm] transactionWithBlock:^{
+            [[RLMRealm defaultRealm] deleteObject:self.lastDrawPaths[0]];
+            [self.lastDrawPaths removeObjectAtIndex:0];
+
+            if (self.lastDrawPaths.count == 0) {
+                [self.undo setTitleColor:UIColor.lightGrayColor forState:UIControlStateNormal];
+            }
+        }];
+    }
 }
 
 @end

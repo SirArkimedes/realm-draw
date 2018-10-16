@@ -17,6 +17,12 @@ DEPENDENCIES:
   - RealmLoginKit
   - RealmSwift (from `https://github.com/realm/realm-cocoa.git`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmLoginKit
+    - TORoundedTableView
+
 EXTERNAL SOURCES:
   RealmSwift:
     :git: https://github.com/realm/realm-cocoa.git
@@ -36,4 +42,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: ed9c24ef8b8b58360d42f1be7bf448b20007ec24
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

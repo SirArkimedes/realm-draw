@@ -1,0 +1,445 @@
+2018-08-23T00:04:39.012Z - info: Realm Object Server version 3.9.13 is starting
+2018-08-23T00:04:39.273Z - detail: Starting service sync
+2018-08-23T00:04:39.273Z - info: [sync] Configuring SyncService with a custom dataPath is deprecated and will be removed in a future version and the value will default to 'sync', relative to the server's dataPath.
+2018-08-23T00:04:39.273Z - detail: Starting service auth
+2018-08-23T00:04:39.275Z - detail: Starting service realms
+2018-08-23T00:04:39.276Z - detail: Starting service log
+2018-08-23T00:04:39.277Z - detail: Starting service permissions
+2018-08-23T00:04:39.277Z - detail: Starting service health
+2018-08-23T00:04:39.277Z - detail: Starting service welcome
+2018-08-23T00:04:39.278Z - detail: Starting service password-auth-ui
+2018-08-23T00:04:39.278Z - detail: Starting service stats
+2018-08-23T00:04:39.279Z - detail: Started service welcome
+2018-08-23T00:04:39.279Z - detail: Started service log
+2018-08-23T00:04:39.279Z - detail: Started service health
+2018-08-23T00:04:39.279Z - detail: Started service password-auth-ui
+2018-08-23T00:04:39.280Z - detail: Started service stats
+2018-08-23T00:04:39.290Z - debug: [sync/stats] Started listening for stats on 127.0.0.1:64016
+2018-08-23T00:04:39.303Z - error: [sync] The feature token is invalid
+2018-08-23T00:04:39.305Z - fatal: [sync] Encountered an error starting up: std::runtime_error: Invalid feature token
+2018-08-23T00:08:44.134Z - info: Got signal SIGINT. Shutting down
+2018-08-23T00:08:50.602Z - info: Got signal SIGINT. Shutting down
+2018-08-23T00:08:58.450Z - info: Realm Object Server version 3.9.13 is starting
+2018-08-23T00:08:58.690Z - detail: Starting service sync
+2018-08-23T00:08:58.690Z - info: [sync] Configuring SyncService with a custom dataPath is deprecated and will be removed in a future version and the value will default to 'sync', relative to the server's dataPath.
+2018-08-23T00:08:58.691Z - detail: Starting service auth
+2018-08-23T00:08:58.693Z - detail: Starting service realms
+2018-08-23T00:08:58.693Z - detail: Starting service log
+2018-08-23T00:08:58.694Z - detail: Starting service permissions
+2018-08-23T00:08:58.694Z - detail: Starting service health
+2018-08-23T00:08:58.694Z - detail: Starting service welcome
+2018-08-23T00:08:58.695Z - detail: Starting service password-auth-ui
+2018-08-23T00:08:58.695Z - detail: Starting service stats
+2018-08-23T00:08:58.696Z - detail: Started service welcome
+2018-08-23T00:08:58.697Z - detail: Started service log
+2018-08-23T00:08:58.697Z - detail: Started service health
+2018-08-23T00:08:58.697Z - detail: Started service password-auth-ui
+2018-08-23T00:08:58.697Z - detail: Started service stats
+2018-08-23T00:08:58.699Z - debug: [sync/stats] Started listening for stats on 127.0.0.1:51069
+2018-08-23T00:08:58.706Z - error: [sync] The feature token is invalid
+2018-08-23T00:08:58.706Z - fatal: [sync] Encountered an error starting up: std::runtime_error: Invalid feature token
+2018-08-23T00:09:01.493Z - info: Got signal SIGINT. Shutting down
+2018-08-23T00:09:02.212Z - info: Got signal SIGINT. Shutting down
+2018-08-23T00:09:11.664Z - info: Realm Object Server version 3.9.13 is starting
+2018-08-23T00:09:11.795Z - error: uncaughtException: listen EADDRINUSE 0.0.0.0:9080 date=Wed Aug 22 2018 19:09:11 GMT-0500 (CDT), pid=81771, uid=501, gid=20, cwd=/Users/andrew/Desktop/realm-draw-master/Apple/RealmDraw, execPath=/Users/andrew/.nvm/versions/node/v8.11.4/bin/node, version=v8.11.4, argv=[/Users/andrew/.nvm/versions/node/v8.11.4/bin/node, /Users/andrew/Desktop/realm-draw-master/Apple/RealmDraw/dist/index.js], rss=74604544, heapTotal=62263296, heapUsed=27103408, external=884082, loadavg=[2.048828125, 1.91064453125, 1.93359375], uptime=331814
+Error: listen EADDRINUSE 0.0.0.0:9080
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1355:14)
+    at listenInCluster (net.js:1396:12)
+    at doListen (net.js:1505:7)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-08-23T00:10:21.679Z - info: Realm Object Server version 3.9.13 is starting
+2018-08-23T00:10:21.713Z - detail: Starting service sync
+2018-08-23T00:10:21.714Z - info: [sync] Configuring SyncService with a custom dataPath is deprecated and will be removed in a future version and the value will default to 'sync', relative to the server's dataPath.
+2018-08-23T00:10:21.714Z - detail: Starting service auth
+2018-08-23T00:10:21.716Z - detail: Starting service realms
+2018-08-23T00:10:21.716Z - detail: Starting service log
+2018-08-23T00:10:21.717Z - detail: Starting service permissions
+2018-08-23T00:10:21.718Z - detail: Starting service health
+2018-08-23T00:10:21.718Z - detail: Starting service welcome
+2018-08-23T00:10:21.719Z - detail: Starting service password-auth-ui
+2018-08-23T00:10:21.719Z - detail: Starting service stats
+2018-08-23T00:10:21.720Z - detail: Started service welcome
+2018-08-23T00:10:21.721Z - detail: Started service log
+2018-08-23T00:10:21.721Z - detail: Started service health
+2018-08-23T00:10:21.721Z - detail: Started service password-auth-ui
+2018-08-23T00:10:21.721Z - detail: Started service stats
+2018-08-23T00:10:21.723Z - debug: [sync/stats] Started listening for stats on 127.0.0.1:59239
+2018-08-23T00:10:21.740Z - info: [sync] Realm sync server started ([realm-core-5.7.2], [realm-sync-3.8.13])
+2018-08-23T00:10:21.740Z - info: [sync] Directory holding persistent state: /Users/andrew/Desktop/realm-draw-master/Apple/RealmDraw/data/sync/user_data
+2018-08-23T00:10:21.740Z - info: [sync] Cluster mode: Root node
+2018-08-23T00:10:21.740Z - info: [sync] Backup mode: disabled
+2018-08-23T00:10:21.741Z - info: [sync] Log level: info
+2018-08-23T00:10:21.741Z - info: [sync] Download log compaction is enabled
+2018-08-23T00:10:21.741Z - info: [sync] Max download size: 16777216 bytes
+2018-08-23T00:10:21.741Z - info: [sync] Realm sync server will start initialization and consistency checks
+2018-08-23T00:10:21.741Z - info: [sync] Server will be initialized with root_dir = /Users/andrew/Desktop/realm-draw-master/Apple/RealmDraw/data/sync/user_data, should_compact = false, should_perform_partial_sync = false
+2018-08-23T00:10:21.741Z - info: [sync] Server initialization: Server initialization starts
+2018-08-23T00:10:21.741Z - info: [sync] Server initialization: Number of full Realms = 0. Number of reference Realms = 0. Number of partial Realms = 0
+2018-08-23T00:10:21.741Z - info: [sync] Server initialization: Server initialization is done
+2018-08-23T00:10:21.742Z - detail: Started service sync
+2018-08-23T00:10:21.742Z - debug: Opening realm at /__admin: 127.0.0.1:64211
+2018-08-23T00:10:21.895Z - info: [sync] Realm sync server is done with initialization and consistency checks
+2018-08-23T00:10:21.895Z - info: [sync] History compaction without expiration enabled.
+2018-08-23T00:10:21.896Z - info: [sync] Average history compaction interval is 3600 seconds.
+2018-08-23T00:10:21.896Z - info: [sync] Listening on 127.0.0.1:64211 (sync protocol version 24, max backlog is 128, non-TLS)
+2018-08-23T00:10:21.905Z - detail: sync-client: Connection[1]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64213') level=info
+2018-08-23T00:10:21.986Z - debug: Open progress for realm at /__admin: 0/0
+2018-08-23T00:10:21.987Z - detail: Opened realm at /__admin
+2018-08-23T00:10:21.987Z - detail: [realms] Creating and initializing the default Realm
+2018-08-23T00:10:21.990Z - debug: Opening realm at /__revocation: 127.0.0.1:64211
+2018-08-23T00:10:22.003Z - debug: Opening realm at /default: 127.0.0.1:64211
+2018-08-23T00:10:22.011Z - detail: sync-client: Connection[1]: Disconnected level=info
+2018-08-23T00:10:22.013Z - detail: sync-client: Connection[2]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64217') level=info
+2018-08-23T00:10:22.013Z - detail: sync-client: Connection[3]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64218') level=info
+2018-08-23T00:10:22.013Z - detail: sync-client: Connection[4]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64219') level=info
+2018-08-23T00:10:22.108Z - debug: Opening realm at /__wildcardpermissions: 127.0.0.1:64211
+2018-08-23T00:10:22.135Z - debug: Open progress for realm at /__revocation: 0/0
+2018-08-23T00:10:22.141Z - debug: Open progress for realm at /default: 0/0
+2018-08-23T00:10:22.141Z - detail: Opened realm at /__revocation
+2018-08-23T00:10:22.141Z - debug: Opening realm at /__configuration: 127.0.0.1:64211
+2018-08-23T00:10:22.147Z - detail: Opened realm at /default
+2018-08-23T00:10:22.149Z - detail: Closed realm at /default
+2018-08-23T00:10:22.180Z - detail: Started service realms
+2018-08-23T00:10:22.180Z - detail: sync-client: Connection[3]: Disconnected level=info
+2018-08-23T00:10:22.180Z - detail: sync-client: Connection[4]: Disconnected level=info
+2018-08-23T00:10:22.181Z - info: [sync] ServerFile[/__admin]: History log compaction processed 2 changesets (saved 0 bytes in 0 milliseconds).
+2018-08-23T00:10:22.246Z - detail: sync-client: Connection[5]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64224') level=info
+2018-08-23T00:10:22.247Z - detail: sync-client: Connection[6]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64225') level=info
+2018-08-23T00:10:22.247Z - detail: sync-client: Connection[7]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64226') level=info
+2018-08-23T00:10:22.248Z - detail: sync-client: Connection[8]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64227') level=info
+2018-08-23T00:10:22.322Z - debug: Open progress for realm at /__wildcardpermissions: 0/0
+2018-08-23T00:10:22.360Z - debug: Open progress for realm at /__configuration: 0/0
+2018-08-23T00:10:22.360Z - detail: Opened realm at /__wildcardpermissions
+2018-08-23T00:10:22.360Z - detail: Opened realm at /__configuration
+2018-08-23T00:10:22.368Z - info: [auth] Autocreated admin token user: __admin
+2018-08-23T00:10:22.383Z - detail: [auth] Starting auth provider 'password'
+2018-08-23T00:10:22.383Z - detail: [auth] Starting auth provider 'anonymous'
+2018-08-23T00:10:22.383Z - detail: [auth] Starting auth provider 'nickname'
+2018-08-23T00:10:22.384Z - debug: Opening realm at /__perm: 127.0.0.1:64211
+2018-08-23T00:10:22.408Z - detail: sync-client: Connection[7]: Disconnected level=info
+2018-08-23T00:10:22.409Z - detail: sync-client: Connection[8]: Disconnected level=info
+2018-08-23T00:10:22.416Z - detail: sync-client: Connection[9]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64231') level=info
+2018-08-23T00:10:22.416Z - detail: sync-client: Connection[10]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64232') level=info
+2018-08-23T00:10:22.452Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__password?shouldCreate=true&realmType=full HTTP/1.1 200 77 - 14.250 ms
+2018-08-23T00:10:22.455Z - debug: Obtained sync label for realm at /__password: default
+2018-08-23T00:10:22.455Z - debug: Opening realm at /__password: 127.0.0.1:64211
+2018-08-23T00:10:22.544Z - debug: Open progress for realm at /__perm: 0/0
+2018-08-23T00:10:22.544Z - detail: sync-client: Connection[10]: Disconnected level=info
+2018-08-23T00:10:22.544Z - detail: sync-client: Connection[11]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64234') level=info
+2018-08-23T00:10:22.544Z - detail: Opened realm at /__perm
+2018-08-23T00:10:22.585Z - detail: Started service permissions
+2018-08-23T00:10:22.587Z - debug: Open progress for realm at /__password: 0/0
+2018-08-23T00:10:22.629Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 41.520 ms
+2018-08-23T00:10:22.629Z - detail: sync-client: Connection[11]: Disconnected level=info
+2018-08-23T00:10:22.629Z - detail: sync-client: Connection[12]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64237') level=info
+2018-08-23T00:10:22.629Z - detail: Opened realm at /__password
+2018-08-23T00:10:22.634Z - detail: sync-client: Connection[13]: Connected to endpoint '0.0.0.0:9080' (from '127.0.0.1:64239') level=info
+2018-08-23T00:10:22.634Z - detail: sync-client: Connection[14]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64240') level=info
+2018-08-23T00:10:22.636Z - debug: Proxy upgrade: [0] new connection from 127.0.0.1:64239
+2018-08-23T00:10:22.638Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=false HTTP/1.1 200 74 - 0.547 ms
+2018-08-23T00:10:22.639Z - debug: new target for default is http://127.0.0.1:64211
+2018-08-23T00:10:22.640Z - debug: ignore repeated 'available' message from service watch
+2018-08-23T00:10:22.640Z - debug: The Realm Object Server proxy has 1 open connections to the sync server
+2018-08-23T00:10:22.753Z - info: [auth] Autocreated admin user: realm-admin
+2018-08-23T00:10:22.753Z - detail: Started service auth
+2018-08-23T00:10:22.753Z - detail: All services have started
+2018-08-23T00:10:22.753Z - detail: TokenValidator started
+2018-08-23T00:10:22.754Z - info: Realm Object Server has started and is listening on http://0.0.0.0:9080
+2018-08-23T00:10:22.762Z - info: [sync] ServerFile[/__password]: History log compaction processed 1 changesets (saved 0 bytes in 0 milliseconds).
+2018-08-23T00:10:22.765Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 0.607 ms
+2018-08-23T00:10:22.789Z - detail: sync-client: Connection[15]: Connected to endpoint '0.0.0.0:9080' (from '127.0.0.1:64244') level=info
+2018-08-23T00:10:22.790Z - debug: Proxy upgrade: [1] new connection from 127.0.0.1:64244
+2018-08-23T00:10:22.792Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=false HTTP/1.1 200 74 - 0.708 ms
+2018-08-23T00:10:22.792Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:10:22.828Z - info: [sync] ServerFile[/__perm]: History log compaction processed 1 changesets (saved 0 bytes in 0 milliseconds).
+2018-08-23T00:10:22.862Z - info: [sync] ServerFile[/__wildcardpermissions]: History log compaction processed 1 changesets (saved 0 bytes in 0 milliseconds).
+2018-08-23T00:10:32.773Z - debug: Open files in Realm Object Server: {"regular":75,"directory":0,"character-device":6,"block-device":0,"pipe":87,"symbolic-link":0,"socket":25,"unknown":0,"total":193}
+2018-08-23T00:16:21.956Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 148.598 ms
+2018-08-23T00:16:22.217Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 5.067 ms
+2018-08-23T00:16:22.222Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 15.500 ms
+2018-08-23T00:16:22.231Z - debug: Proxy upgrade: [2] new connection from 127.0.0.1:64508
+2018-08-23T00:16:22.231Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:16:22.346Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2F__perm?shouldCreate=true&realmType=full HTTP/1.1 200 106 - 33.016 ms
+2018-08-23T00:16:22.347Z - debug: Obtained sync label for realm at /e321ff3045399dc69352bf91d1e3e484/__perm: default
+2018-08-23T00:16:22.347Z - debug: Opening realm at /e321ff3045399dc69352bf91d1e3e484/__perm: 127.0.0.1:64211
+2018-08-23T00:16:22.404Z - detail: sync-client: Connection[16]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64512') level=info
+2018-08-23T00:16:22.552Z - debug: Open progress for realm at /e321ff3045399dc69352bf91d1e3e484/__perm: 0/0
+2018-08-23T00:16:22.552Z - detail: sync-client: Connection[16]: Disconnected level=info
+2018-08-23T00:16:22.552Z - detail: Opened realm at /e321ff3045399dc69352bf91d1e3e484/__perm
+2018-08-23T00:16:22.553Z - detail: sync-client: Connection[17]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64514') level=info
+2018-08-23T00:16:22.557Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2F__permission?shouldCreate=true&realmType=full HTTP/1.1 200 112 - 2.661 ms
+2018-08-23T00:16:22.557Z - debug: Obtained sync label for realm at /e321ff3045399dc69352bf91d1e3e484/__permission: default
+2018-08-23T00:16:22.557Z - debug: Opening realm at /e321ff3045399dc69352bf91d1e3e484/__permission: 127.0.0.1:64211
+2018-08-23T00:16:22.616Z - detail: sync-client: Connection[18]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64517') level=info
+2018-08-23T00:16:22.673Z - debug: Open progress for realm at /e321ff3045399dc69352bf91d1e3e484/__permission: 0/0
+2018-08-23T00:16:22.673Z - detail: sync-client: Connection[18]: Disconnected level=info
+2018-08-23T00:16:22.673Z - detail: Opened realm at /e321ff3045399dc69352bf91d1e3e484/__permission
+2018-08-23T00:16:22.676Z - detail: Closed realm at /e321ff3045399dc69352bf91d1e3e484/__perm
+2018-08-23T00:16:22.677Z - detail: Closed realm at /e321ff3045399dc69352bf91d1e3e484/__permission
+2018-08-23T00:16:22.678Z - info: [sync] ServerFile[/e321ff3045399dc69352bf91d1e3e484/__perm]: History log compaction processed 1 changesets (saved 0 bytes in 0 milliseconds).
+2018-08-23T00:16:22.682Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2F__perm?shouldCreate=true&realmType=full HTTP/1.1 200 106 - 0.759 ms
+2018-08-23T00:16:22.682Z - debug: Obtained sync label for realm at /e321ff3045399dc69352bf91d1e3e484/__perm: default
+2018-08-23T00:16:22.682Z - debug: Opening realm at /e321ff3045399dc69352bf91d1e3e484/__perm: 127.0.0.1:64211
+2018-08-23T00:16:22.683Z - debug: Open progress for realm at /e321ff3045399dc69352bf91d1e3e484/__perm: 0/0
+2018-08-23T00:16:22.715Z - detail: sync-client: Connection[19]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64520') level=info
+2018-08-23T00:16:22.726Z - detail: sync-client: Connection[17]: Disconnected level=info
+2018-08-23T00:16:22.728Z - detail: Opened realm at /e321ff3045399dc69352bf91d1e3e484/__perm
+2018-08-23T00:16:22.730Z - detail: sync-client: Connection[20]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64522') level=info
+2018-08-23T00:16:22.731Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2F__permission?shouldCreate=true&realmType=full HTTP/1.1 200 112 - 1.337 ms
+2018-08-23T00:16:22.731Z - debug: Obtained sync label for realm at /e321ff3045399dc69352bf91d1e3e484/__permission: default
+2018-08-23T00:16:22.731Z - debug: Opening realm at /e321ff3045399dc69352bf91d1e3e484/__permission: 127.0.0.1:64211
+2018-08-23T00:16:22.735Z - detail: sync-client: Connection[19]: Disconnected level=info
+2018-08-23T00:16:22.737Z - detail: sync-client: Connection[21]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64525') level=info
+2018-08-23T00:16:22.743Z - debug: Open progress for realm at /e321ff3045399dc69352bf91d1e3e484/__permission: 0/0
+2018-08-23T00:16:22.743Z - detail: Opened realm at /e321ff3045399dc69352bf91d1e3e484/__permission
+2018-08-23T00:16:22.746Z - detail: Closed realm at /e321ff3045399dc69352bf91d1e3e484/__perm
+2018-08-23T00:16:22.747Z - detail: Closed realm at /e321ff3045399dc69352bf91d1e3e484/__permission
+2018-08-23T00:16:22.747Z - detail: sync-client: Connection[21]: Disconnected level=info
+2018-08-23T00:16:22.750Z - detail: sync-client: Connection[20]: Disconnected level=info
+2018-08-23T00:16:22.752Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2F__perm?shouldCreate=true&realmType=full HTTP/1.1 200 106 - 1.488 ms
+2018-08-23T00:16:22.752Z - debug: Obtained sync label for realm at /e321ff3045399dc69352bf91d1e3e484/__perm: default
+2018-08-23T00:16:22.752Z - debug: Opening realm at /e321ff3045399dc69352bf91d1e3e484/__perm: 127.0.0.1:64211
+2018-08-23T00:16:22.755Z - detail: sync-client: Connection[22]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64528') level=info
+2018-08-23T00:16:22.756Z - info: [sync] ServerFile[/e321ff3045399dc69352bf91d1e3e484/__permission]: History log compaction processed 2 changesets (saved 0 bytes in 0 milliseconds).
+2018-08-23T00:16:22.756Z - detail: sync-client: Connection[23]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64530') level=info
+2018-08-23T00:16:22.801Z - detail: sync-client: Connection[22]: Disconnected level=info
+2018-08-23T00:16:22.807Z - debug: Open progress for realm at /e321ff3045399dc69352bf91d1e3e484/__perm: 0/0
+2018-08-23T00:16:22.807Z - detail: sync-client: Connection[23]: Disconnected level=info
+2018-08-23T00:16:22.808Z - detail: Opened realm at /e321ff3045399dc69352bf91d1e3e484/__perm
+2018-08-23T00:16:22.808Z - detail: sync-client: Connection[24]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64532') level=info
+2018-08-23T00:16:22.810Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2F__permission?shouldCreate=true&realmType=full HTTP/1.1 200 112 - 0.799 ms
+2018-08-23T00:16:22.810Z - debug: Obtained sync label for realm at /e321ff3045399dc69352bf91d1e3e484/__permission: default
+2018-08-23T00:16:22.810Z - debug: Opening realm at /e321ff3045399dc69352bf91d1e3e484/__permission: 127.0.0.1:64211
+2018-08-23T00:16:22.814Z - detail: sync-client: Connection[25]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64535') level=info
+2018-08-23T00:16:22.819Z - debug: Open progress for realm at /e321ff3045399dc69352bf91d1e3e484/__permission: 0/0
+2018-08-23T00:16:22.819Z - detail: Opened realm at /e321ff3045399dc69352bf91d1e3e484/__permission
+2018-08-23T00:16:22.823Z - detail: Closed realm at /e321ff3045399dc69352bf91d1e3e484/__perm
+2018-08-23T00:16:22.825Z - detail: Closed realm at /e321ff3045399dc69352bf91d1e3e484/__permission
+2018-08-23T00:16:22.825Z - detail: sync-client: Connection[25]: Disconnected level=info
+2018-08-23T00:16:22.882Z - debug: Open files in Realm Object Server: {"regular":91,"directory":0,"character-device":6,"block-device":0,"pipe":95,"symbolic-link":0,"socket":33,"unknown":0,"total":225}
+2018-08-23T00:16:22.925Z - detail: sync-client: Connection[24]: Disconnected level=info
+2018-08-23T00:16:22.925Z - detail: sync-client: Connection[26]: Connected to endpoint '127.0.0.1:64211' (from '127.0.0.1:64537') level=info
+2018-08-23T00:16:23.025Z - detail: sync-client: Connection[26]: Disconnected level=info
+2018-08-23T00:16:24.963Z - info: [sync] ServerFile[/e321ff3045399dc69352bf91d1e3e484/Draw]: History log compaction processed 1 changesets (saved 0 bytes in 0 milliseconds).
+2018-08-23T00:16:32.850Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:16:48.263Z - debug: sync proxy closed
+2018-08-23T00:16:48.263Z - debug: [2] closed connection from 127.0.0.1:64508
+2018-08-23T00:16:48.264Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:16:52.845Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:17:15.413Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 86.894 ms
+2018-08-23T00:17:15.458Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.747 ms
+2018-08-23T00:17:15.461Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.535 ms
+2018-08-23T00:17:15.463Z - debug: Proxy upgrade: [3] new connection from 127.0.0.1:64574
+2018-08-23T00:17:15.464Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:17:22.854Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:23:05.013Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.822 ms
+2018-08-23T00:23:05.016Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.871 ms
+2018-08-23T00:28:55.008Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.719 ms
+2018-08-23T00:28:55.010Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.029 ms
+2018-08-23T00:34:45.010Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.648 ms
+2018-08-23T00:34:45.012Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 3.946 ms
+2018-08-23T00:40:35.009Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.674 ms
+2018-08-23T00:40:35.011Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.257 ms
+2018-08-23T00:41:54.268Z - debug: sync proxy closed
+2018-08-23T00:41:54.269Z - debug: [3] closed connection from 127.0.0.1:64574
+2018-08-23T00:41:54.269Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:42:03.123Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 87.665 ms
+2018-08-23T00:42:03.167Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.764 ms
+2018-08-23T00:42:03.170Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.335 ms
+2018-08-23T00:42:03.174Z - debug: Proxy upgrade: [4] new connection from 127.0.0.1:49423
+2018-08-23T00:42:03.175Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:42:03.290Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":29,"unknown":0,"total":215}
+2018-08-23T00:42:13.289Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:43:23.296Z - debug: sync proxy closed
+2018-08-23T00:43:23.296Z - debug: [4] closed connection from 127.0.0.1:49423
+2018-08-23T00:43:23.296Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:43:23.309Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:43:34.843Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 86.433 ms
+2018-08-23T00:43:34.888Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 1.129 ms
+2018-08-23T00:43:34.891Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 5.212 ms
+2018-08-23T00:43:34.894Z - debug: Proxy upgrade: [5] new connection from 127.0.0.1:49457
+2018-08-23T00:43:34.895Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:43:43.314Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:43:56.278Z - debug: sync proxy closed
+2018-08-23T00:43:56.278Z - debug: [5] closed connection from 127.0.0.1:49457
+2018-08-23T00:43:56.279Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:44:03.317Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:44:05.072Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 95.433 ms
+2018-08-23T00:44:05.127Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.810 ms
+2018-08-23T00:44:05.130Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.921 ms
+2018-08-23T00:44:05.133Z - debug: Proxy upgrade: [6] new connection from 127.0.0.1:49482
+2018-08-23T00:44:05.133Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:44:13.318Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:46:53.588Z - debug: sync proxy closed
+2018-08-23T00:46:53.589Z - debug: [6] closed connection from 127.0.0.1:49482
+2018-08-23T00:46:53.589Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:47:03.369Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:47:34.391Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 84.160 ms
+2018-08-23T00:47:34.435Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.754 ms
+2018-08-23T00:47:34.438Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 5.013 ms
+2018-08-23T00:47:34.441Z - debug: Proxy upgrade: [7] new connection from 127.0.0.1:49643
+2018-08-23T00:47:34.442Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:47:43.388Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:48:52.583Z - debug: sync proxy closed
+2018-08-23T00:48:52.584Z - debug: [7] closed connection from 127.0.0.1:49643
+2018-08-23T00:48:52.584Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:48:53.404Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:51:35.958Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 86.490 ms
+2018-08-23T00:51:36.003Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 1.022 ms
+2018-08-23T00:51:36.006Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 5.024 ms
+2018-08-23T00:51:36.010Z - debug: Proxy upgrade: [8] new connection from 127.0.0.1:49854
+2018-08-23T00:51:36.011Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:51:43.443Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:52:10.530Z - debug: sync proxy closed
+2018-08-23T00:52:10.530Z - debug: [8] closed connection from 127.0.0.1:49854
+2018-08-23T00:52:10.530Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:52:13.460Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:52:21.006Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 88.075 ms
+2018-08-23T00:52:21.051Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.798 ms
+2018-08-23T00:52:21.054Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.998 ms
+2018-08-23T00:52:21.057Z - debug: Proxy upgrade: [9] new connection from 127.0.0.1:49864
+2018-08-23T00:52:21.057Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:52:23.462Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":29,"unknown":0,"total":215}
+2018-08-23T00:52:33.469Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:53:22.850Z - debug: sync proxy closed
+2018-08-23T00:53:22.850Z - debug: [9] closed connection from 127.0.0.1:49864
+2018-08-23T00:53:22.850Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:53:23.483Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:53:33.274Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 85.918 ms
+2018-08-23T00:53:33.352Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.796 ms
+2018-08-23T00:53:33.354Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.096 ms
+2018-08-23T00:53:33.357Z - debug: Proxy upgrade: [10] new connection from 127.0.0.1:49951
+2018-08-23T00:53:33.357Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:53:33.490Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":29,"unknown":0,"total":215}
+2018-08-23T00:53:43.486Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:53:55.473Z - debug: sync proxy closed
+2018-08-23T00:53:55.473Z - debug: [10] closed connection from 127.0.0.1:49951
+2018-08-23T00:53:55.473Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:54:02.717Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 86.517 ms
+2018-08-23T00:54:02.762Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.760 ms
+2018-08-23T00:54:02.764Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.235 ms
+2018-08-23T00:54:02.767Z - debug: Proxy upgrade: [11] new connection from 127.0.0.1:49958
+2018-08-23T00:54:02.767Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:54:03.493Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":29,"unknown":0,"total":215}
+2018-08-23T00:54:13.495Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:54:41.434Z - debug: sync proxy closed
+2018-08-23T00:54:41.434Z - debug: [11] closed connection from 127.0.0.1:49958
+2018-08-23T00:54:41.434Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:54:43.508Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:54:49.215Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 89.149 ms
+2018-08-23T00:54:49.261Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.732 ms
+2018-08-23T00:54:49.264Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.723 ms
+2018-08-23T00:54:49.266Z - debug: Proxy upgrade: [12] new connection from 127.0.0.1:49989
+2018-08-23T00:54:49.267Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:54:53.506Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":29,"unknown":0,"total":215}
+2018-08-23T00:55:03.507Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T00:55:52.955Z - debug: sync proxy closed
+2018-08-23T00:55:52.956Z - debug: [12] closed connection from 127.0.0.1:49989
+2018-08-23T00:55:52.956Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T00:55:53.522Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T00:55:58.300Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 85.791 ms
+2018-08-23T00:55:58.345Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.756 ms
+2018-08-23T00:55:58.347Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.422 ms
+2018-08-23T00:55:58.350Z - debug: Proxy upgrade: [13] new connection from 127.0.0.1:50004
+2018-08-23T00:55:58.350Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T00:56:03.520Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T01:00:15.347Z - debug: sync proxy closed
+2018-08-23T01:00:15.347Z - debug: [13] closed connection from 127.0.0.1:50004
+2018-08-23T01:00:15.347Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T01:00:23.606Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T01:00:25.321Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 84.256 ms
+2018-08-23T01:00:25.369Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.778 ms
+2018-08-23T01:00:25.371Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.960 ms
+2018-08-23T01:00:25.375Z - debug: Proxy upgrade: [14] new connection from 127.0.0.1:50179
+2018-08-23T01:00:25.375Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T01:00:33.614Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T01:00:44.170Z - debug: sync proxy closed
+2018-08-23T01:00:44.170Z - debug: [14] closed connection from 127.0.0.1:50179
+2018-08-23T01:00:44.170Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T01:00:53.611Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T01:00:54.677Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 87.415 ms
+2018-08-23T01:00:54.723Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.727 ms
+2018-08-23T01:00:54.725Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 3.942 ms
+2018-08-23T01:00:54.728Z - debug: Proxy upgrade: [15] new connection from 127.0.0.1:50206
+2018-08-23T01:00:54.729Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T01:01:03.615Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T01:03:36.926Z - debug: sync proxy closed
+2018-08-23T01:03:36.927Z - debug: [15] closed connection from 127.0.0.1:50206
+2018-08-23T01:03:36.927Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T01:03:43.668Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T01:03:51.012Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 87.286 ms
+2018-08-23T01:03:51.058Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.729 ms
+2018-08-23T01:03:51.060Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.077 ms
+2018-08-23T01:03:51.063Z - debug: Proxy upgrade: [16] new connection from 127.0.0.1:50301
+2018-08-23T01:03:51.064Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T01:03:53.673Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":29,"unknown":0,"total":215}
+2018-08-23T01:04:03.676Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T01:04:39.654Z - debug: sync proxy closed
+2018-08-23T01:04:39.654Z - debug: [16] closed connection from 127.0.0.1:50301
+2018-08-23T01:04:39.654Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T01:04:43.690Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T01:04:56.526Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 88.566 ms
+2018-08-23T01:04:56.569Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.719 ms
+2018-08-23T01:04:56.572Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.601 ms
+2018-08-23T01:04:56.575Z - debug: Proxy upgrade: [17] new connection from 127.0.0.1:50331
+2018-08-23T01:04:56.576Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T01:05:03.696Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T01:10:35.933Z - debug: sync proxy closed
+2018-08-23T01:10:35.933Z - debug: [17] closed connection from 127.0.0.1:50331
+2018-08-23T01:10:35.933Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T01:10:43.775Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T01:10:45.759Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 87.357 ms
+2018-08-23T01:10:45.806Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.817 ms
+2018-08-23T01:10:45.808Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.902 ms
+2018-08-23T01:10:45.811Z - debug: Proxy upgrade: [18] new connection from 127.0.0.1:50654
+2018-08-23T01:10:45.812Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T01:10:53.780Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T01:11:03.792Z - debug: sync proxy closed
+2018-08-23T01:11:03.792Z - debug: [18] closed connection from 127.0.0.1:50654
+2018-08-23T01:11:03.792Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T01:11:13.548Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 808 - 86.388 ms
+2018-08-23T01:11:13.592Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fe321ff3045399dc69352bf91d1e3e484%2FDraw?shouldCreate=true&realmType=full HTTP/1.1 200 104 - 0.810 ms
+2018-08-23T01:11:13.594Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 919 - 4.295 ms
+2018-08-23T01:11:13.598Z - debug: Proxy upgrade: [19] new connection from 127.0.0.1:50669
+2018-08-23T01:11:13.598Z - debug: The Realm Object Server proxy has 3 open connections to the sync server
+2018-08-23T01:11:13.785Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":29,"unknown":0,"total":215}
+2018-08-23T01:11:23.783Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":28,"unknown":0,"total":214}
+2018-08-23T01:11:31.579Z - debug: sync proxy closed
+2018-08-23T01:11:31.579Z - debug: [19] closed connection from 127.0.0.1:50669
+2018-08-23T01:11:31.579Z - debug: The Realm Object Server proxy has 2 open connections to the sync server
+2018-08-23T01:11:33.790Z - debug: Open files in Realm Object Server: {"regular":87,"directory":0,"character-device":6,"block-device":0,"pipe":93,"symbolic-link":0,"socket":25,"unknown":0,"total":211}
+2018-08-23T01:25:59.635Z - info: Got signal SIGINT. Shutting down
+2018-08-23T01:25:59.638Z - detail: Closed realm at /__password
+2018-08-23T01:25:59.638Z - detail: TokenValidator stopped
+2018-08-23T01:25:59.639Z - detail: Stopping service sync
+2018-08-23T01:25:59.639Z - debug: ignore 'unavailable' message from service watch
+2018-08-23T01:25:59.639Z - detail: Stopping service auth
+2018-08-23T01:25:59.639Z - detail: Stopping service realms
+2018-08-23T01:25:59.639Z - detail: Stopping service log
+2018-08-23T01:25:59.639Z - detail: Stopping service permissions
+2018-08-23T01:25:59.640Z - detail: Stopping service health
+2018-08-23T01:25:59.640Z - detail: Stopping service welcome
+2018-08-23T01:25:59.640Z - detail: Stopping service password-auth-ui
+2018-08-23T01:25:59.640Z - detail: Stopping service stats
+2018-08-23T01:25:59.641Z - detail: Closed realm at /__configuration
+2018-08-23T01:25:59.643Z - detail: Closed realm at /__revocation
+2018-08-23T01:25:59.644Z - detail: Closed realm at /__perm
+2018-08-23T01:25:59.645Z - detail: Closed realm at /__wildcardpermissions
+2018-08-23T01:25:59.645Z - detail: Stopped service health
+2018-08-23T01:25:59.645Z - detail: Stopped service welcome
+2018-08-23T01:25:59.645Z - detail: Stopped service password-auth-ui
+2018-08-23T01:25:59.645Z - detail: Stopped service stats
+2018-08-23T01:25:59.646Z - detail: Closed realm at /__admin
+2018-08-23T01:25:59.646Z - detail: Stopped service auth
+2018-08-23T01:25:59.646Z - detail: Stopped service realms
+2018-08-23T01:25:59.646Z - detail: Stopped service log
+2018-08-23T01:25:59.646Z - detail: Stopped service permissions
+2018-08-23T01:25:59.646Z - debug: destroyed connection from 127.0.0.1:64239
+2018-08-23T01:25:59.646Z - debug: destroyed connection from 127.0.0.1:64244
+2018-08-23T01:25:59.647Z - debug: [1] closed connection from 127.0.0.1:64244
+2018-08-23T01:25:59.647Z - debug: The Realm Object Server proxy has 0 open connections to the sync server
+2018-08-23T01:25:59.647Z - debug: [0] closed connection from 127.0.0.1:64239
+2018-08-23T01:25:59.647Z - debug: The Realm Object Server proxy has 0 open connections to the sync server

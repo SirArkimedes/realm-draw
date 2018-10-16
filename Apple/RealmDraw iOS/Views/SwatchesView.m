@@ -28,7 +28,7 @@ static CGFloat kSwatchPencilPadding = 1.0f;
 
 @interface SwatchesView()
 
-@property (nonatomic, strong) UIImageView *selectedIconView;
+@property (nonatomic, strong) UIView *selectedIconView;
 @property (nonatomic, strong) NSDictionary *colors;
 @property (nonatomic, strong) NSArray *colorButtons;
 
@@ -48,17 +48,19 @@ static CGFloat kSwatchPencilPadding = 1.0f;
 
 - (void)setupButtons
 {
+    self.backgroundColor = [UIColor.blackColor colorWithAlphaComponent:0.05];
     self.colors = [UIColor realmColors];
 
     NSMutableArray *buttons = [NSMutableArray arrayWithCapacity:self.colors.count];
     NSInteger tag = 0;
     for (NSString *color in self.colors.allKeys) {
-        UIImage *pencilImage = [[UIImage imageNamed:color] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        UIImage *pencilImage = [[UIImage imageNamed:@"Charcoal"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
 
-        UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+        UIButton *button = [[UIButton alloc] init];
         button.tag = tag++;
         button.contentMode = UIViewContentModeScaleAspectFit;
         [button setImage:pencilImage forState:UIControlStateNormal];
+        button.imageView.tintColor = self.colors[color];
         [button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:button];
 
@@ -81,7 +83,10 @@ static CGFloat kSwatchPencilPadding = 1.0f;
     self.contentSize = (CGSize){totalWidth, swatchSize.height};
     [self updateContentInset];
     
-    self.selectedIconView = [[UIImageView alloc] initWithImage:[[self class] circleIcon]];
+    self.selectedIconView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 6.0f, 6.0f)];
+    self.selectedIconView.clipsToBounds = true;
+    self.selectedIconView.backgroundColor = UIColor.whiteColor;
+    self.selectedIconView.layer.cornerRadius = 3.0f;
     [self addSelectedIconToButton:self.colorButtons.firstObject];
 }
 
@@ -112,8 +117,14 @@ static CGFloat kSwatchPencilPadding = 1.0f;
     [button addSubview:self.selectedIconView];
     CGRect frame = self.selectedIconView.frame;
     frame.origin.x = (button.frame.size.width - frame.size.width) * 0.5f;
-    frame.origin.y = button.frame.size.height - 12.0f;
+    frame.origin.y = button.frame.size.height - 60.0f;
     self.selectedIconView.frame = frame;
+
+    if (button.imageView.tintColor == UIColor.whiteColor || button.imageView.tintColor == UIColor.yellowColor) {
+        self.selectedIconView.backgroundColor = UIColor.blackColor;
+    } else {
+        self.selectedIconView.backgroundColor = UIColor.whiteColor;
+    }
 }
 
 - (void)buttonTapped:(id)sender
@@ -142,18 +153,6 @@ static CGFloat kSwatchPencilPadding = 1.0f;
     }
     
     return (CGSize){kSwatchButtonWidthPhone, kSwatchButtonHeightPhone};
-}
-
-+ (UIImage *)circleIcon
-{
-    CGRect rect = CGRectMake(0, 0, 6.0f, 6.0f);
-    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0.0f);
-    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:rect];
-    [[UIColor colorWithWhite:1.0f alpha:0.8f] set];
-    [path fill];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    return image;
 }
 
 @end

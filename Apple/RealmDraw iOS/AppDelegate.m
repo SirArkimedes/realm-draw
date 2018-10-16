@@ -47,7 +47,7 @@
         // The Realm virtual path on the server.
         // The `~` represents the Realm user ID. Since the user ID is not known until you
         // log in, the ~ is used as short-hand to represent this.
-        NSURL *syncURL = [NSURL URLWithString:[NSString stringWithFormat:@"realm://%@:9080/~/Draw", weakController.serverURL]];
+        NSURL *syncURL = [NSURL URLWithString:[NSString stringWithFormat:@"realm://%@:9080/Draw", weakController.serverURL]];
         RLMSyncConfiguration *syncConfig = [[RLMSyncConfiguration alloc] initWithUser:user realmURL:syncURL];
         RLMRealmConfiguration *defaultConfig = [RLMRealmConfiguration defaultConfiguration];
         defaultConfig.syncConfiguration = syncConfig;

@@ -24,7 +24,7 @@
 
 - (UIBezierPath *)path {
     UIBezierPath *path = [UIBezierPath bezierPath];
-    path.lineWidth = 4.0f;
+    path.lineWidth = self.lineWidth;
     NSUInteger index = 0;
     for (DrawPoint *point in self.points) {
         if (index == 0) {
